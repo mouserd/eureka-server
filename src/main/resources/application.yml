@@ -2,15 +2,13 @@ info:
   component: Eureka Server (Local Properties)
 
 spring:
-  application:
-    name: eureka-server
   cloud:
     config:
       username: user
       password: user
 
 server:
-  port: 8761
+  port: ${PORT:8761}
 
 eureka:
   client:
