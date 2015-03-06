@@ -1,5 +1,5 @@
 spring:
   profiles:
-    active: ${PROFILES}
+    active: ${PROFILES:}
   application:
     name: ${APP_NAME:eureka-server}
