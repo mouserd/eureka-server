@@ -3,3 +3,6 @@ spring:
     active: ${PROFILES:}
   application:
     name: ${APP_NAME:eureka-server}
+  cloud:
+    config:
+      uri: ${CONFIG_URI:http://localhost:8888}
