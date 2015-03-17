@@ -4,11 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.pixelus</groupId>
-  <artifactId>config-server</artifactId>
+  <artifactId>eureka-server</artifactId>
   <packaging>jar</packaging>
 
-  <name>spring-cloud-config-server</name>
-  <description>spring-cloud-config-server</description>
+  <name>eureka-server</name>
+  <description>A Eureka Server for service discovery</description>
 
   <parent>
     <groupId>org.springframework.cloud</groupId>
@@ -55,6 +55,7 @@
   </dependencies>
 
   <build>
+    <finalName>${project.name}</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
